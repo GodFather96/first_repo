@@ -275,7 +275,7 @@ end Etl_Dm_Load;
 create or replace package body Etl_Dm_Load is
 
 --
-c_Git_Id constant varchar2(300) := '$Format:Commit %h was done at %ci by %cN on file "" --name-only --no-commit-id$';
+c_Git_Id constant varchar2(300) := '$Format:Commit %h %s was done at %ci by %cN$';
 --
 Procedure Write_Log
   (     
