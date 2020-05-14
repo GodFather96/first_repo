@@ -275,7 +275,7 @@ end Etl_Dm_Load;
 create or replace package body Etl_Dm_Load is
 
 --
-c_Git_Id constant varchar2(200) := '$Id Commit Info: $Format:%cd by %aN$$';
+c_Git_Id constant varchar2(200) := '$Commit Info: $Format:%s %H %cd by %aN$';
 --
 Procedure Write_Log
   (     
